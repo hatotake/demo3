@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  border-top: 5px solid skyblue;
+  border-style: outset;
+  background: linear-gradient(180deg, #fff );
+  height: 100%;
+}
+
+.head {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.head2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.head img {
+ width: 80%;
+ height: 180px;;
+}
+
+.denwa {
+  width: 40%;
+  text-align: center;
+  border: solid 3px rgb(247, 226, 157);
+  margin: 0 10px;
+}
+.contact {
+  width: 40%;
+  text-align: center;
+  border: solid 3px rgb(247, 226, 157);
+  margin: 0 10px;
+}
+
+.headlist2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headlist >.head3 {
+  margin-left: 20px;
+}
+
+.head3-1 {
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  position: relative;
+  /* background: linear-gradient(45deg, rgb(220, 240, 247), rgb(156, 228, 250) 30%, skyblue 60%, rgb(132, 132, 248)); */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.918));
+  border-radius: 5px 0 0 5px;
+  border: 2px double rgb(247, 226, 157);
+  border-right: 1px double rgb(247, 226, 157);
+  cursor: pointer;
+}
+.head3-2 {
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  position: relative;
+  /* background: linear-gradient(45deg, rgb(220, 240, 247), rgb(156, 228, 250) 30%, skyblue 60%, rgb(132, 132, 248)); */
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0.918));
+  border: 2px double rgb(247, 226, 157);
+  border-right: 1px double rgb(247, 226, 157);
+  cursor: pointer;
+}
+.head3-3 {
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  position: relative;
+  /* background: linear-gradient(45deg, rgb(220, 240, 247), rgb(156, 228, 250) 30%, skyblue 60%, rgb(132, 132, 248)); */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.918));
+  border-radius: 0 5px 5px 0;
+  border: 2px double rgb(247, 226, 157);
+  border-right: 2px double rgb(247, 226, 157);
+  cursor: pointer;
+}
+
+.head3-1 p ,.head3-2 p ,.head3-3 p{
+  margin: 0;
+  font-size: 10px;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic'); */
+
+.head3-1 a  ,.head3-2 a ,.head3-3 a{
+  text-decoration: none;
+  color: rgb(105, 107, 107);
+  display: block;
+  font-family: inherit;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px rgba(112, 178, 216, 0.219);
+  margin-top: 10px;
+}
+
+.head3-1:hover {
+  opacity: 0.9;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.918), rgba(253, 230, 196, 0.945));
+}
+.head3-2:hover {
+  opacity: 0.9;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.918), rgba(253, 230, 196, 0.945));
+}
+.head3-3:hover {
+  opacity: 0.9;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.918), rgba(253, 230, 196, 0.945));
+}
+
+.head ul {
+  padding: 0;
+}
+
+.head li {
+  list-style: none;
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)
+  translateX(-50%);
+}
+
+/* main */
+
+main {
+  margin: 0 20px;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  
+  /* flex-wrap: wrap; */
+}
+
+.main1 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(151, 255, 215);
+  line-height: 35px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.main1 ul {
+  padding: 0%;
+  margin: 0%;
+}
+
+.title1 {
+  padding-top: 20px;
+  height: 45px;
+  width: 300px;
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid rgb(148, 250, 211);
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 5px;
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0.918))
+}
+
+.title1-list {
+  height: 218px;
+  padding-top: 10px;
+  list-style: none;
+  border-bottom: rgba(115, 216, 182, 0.644);
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.title1-list a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(60, 184, 233);
+}
+
+.title1-list span {
+  padding-left: 10px;
+  color: aquamarine;
+}
+
+.title1-list hr {
+  width: 270px;
+}
+
+.main2 {
+  margin-left: 30px;
+  width: 70%;
+  border: 3px solid mediumaquamarine;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.main2 > h1 {
+  border-bottom: 3px solid mediumaquamarine;
+  margin-top: 0%;
+  padding: 40px 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0.918));
+  font-size: 20px;
+  color: rgb(60, 184, 233);
+  padding-left: 20px;
+}
+
+.main2 > h2 {
+  padding: 20px 0;
+  margin: 0 20px;
+  border-bottom: 3px solid mediumaquamarine;
+}
+
+.main2 h3 {
+  padding-left: 20px;
+}
+
+.main2 p {
+  padding-left: 20px;
+}
+
+.fli {
+  margin-top: 100px;
+  width: 95%;
+  margin-left: 30px;
+  background: linear-gradient(180deg, #fff, rgb(156, 219, 241) );
+  border-radius: 5px;
+}
+
+.fli > ul {
+  width: 70%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.fli li {
+  width: 100px;
+  list-style: upper-roman;
+}
+
+#aaa {
+  width: 115px;
+}
+
+#aa {
+  width: 140px;
+}
+
+.fli a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(0, 68, 255, 0.705);
+}
+
+.fli a:hover {
+  opacity: 0.8;
+}
+
+footer > p {
+  width: 95%;
+  text-align: right;
+  margin-left: 10px;
+}
+
+hr{
+  display: block;
+  height: 2px;
+  background-color: pink;
+  border: 0;
+}
+
+.f {
+  text-align: center;
+}
